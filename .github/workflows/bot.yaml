@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/chechout@v1
-      - run pip install python-telegram-bot
+      - run: pip install python-telegram-bot
       - name: Run python script
         run: python main.py
         env:
