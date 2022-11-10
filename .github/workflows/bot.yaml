@@ -12,4 +12,4 @@ jobs:
       - name: Run python script
         run: python main.py
         env:
-        TOKEN: ${{secrets.TOKEN}}
+          TOKEN: ${{secrets.TOKEN}}
